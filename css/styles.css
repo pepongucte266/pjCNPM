@@ -1,0 +1,629 @@
+body {
+    width: 100%;
+    height: 3520px;
+    overflow-x: hidden;
+    z-index: 1;
+    background-color: white;
+    position: relative;
+}
+
+.div-on-top {
+ 
+    height: 35px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    padding: 4px 2.5%;
+    background-color: #dad6d6;
+}
+.searching{
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    width: 35px;
+    margin-top: 2px;
+    background-color:  #dad6d6;
+}
+
+.searching :focus{
+    outline:none;
+}
+.div-on-top a:hover {
+    opacity: 0.8;
+}
+
+.div-on-top a:focus {
+    outline: none;
+    opacity: 0.3;
+}
+
+.logo-jordan {
+    float: left;
+}
+
+.login-menu {
+    float: left;
+}
+
+.login-menu li {
+    float: left;
+    list-style: none;
+}
+
+.login-menu a {
+    text-decoration: none;
+    color: black;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 550;
+    border-right: 1px black solid;
+    padding: 0px 10px;
+}
+
+.btn-open-div-signin {
+    font-size: 12px;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    background-color: #dad6d6;
+}
+
+.btn-open-div-signin:focus {
+    outline: none;
+    opacity: 0.3;
+
+}
+
+.web-brand img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.web-brand {
+    float: left;
+}
+
+.div-menu {
+    margin-top: 35px;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    padding: 0 1.8%;
+    box-shadow: 1px 4px 5px gray;
+}
+
+.div-menu ul {
+    padding-top: 10px;
+    list-style: none;
+    float: left;
+}
+
+.div-menu li {
+    margin: 0 15px;
+    float: left;
+}
+
+.div-menu li a {
+    color: black;
+    padding-bottom: 18px;
+}
+
+.div-menu li a:hover {
+    text-decoration: none;
+    border-bottom: 4px black solid;
+}
+
+.div-search .icon {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.bag-item,
+.btn-favorites-list {
+    width: 30px;
+    height: 30px;
+}
+
+.div-search {
+    width: 100%;
+    float: right;
+    margin-right: -9%;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.div-search a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: black;
+}
+
+.div-search a {
+    margin-left: 15px;
+}
+
+.div-search form {
+    transition: 0.5s;
+    background-color:  #dad6d6;
+    width: 210px;
+    height: 40px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    margin: 0px 0px;
+    float: left;
+}
+
+.div-search input {
+    width: 80%;
+    transition: 0.7s;
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: #dad6d6;
+}
+
+.div-popular-search {
+    width: 330px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 4px 1px 2px rgb(83, 83, 255);
+    position: absolute;
+    right: 140px;
+    top:95px;
+    padding-left: 30px;
+    padding-top: 10px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.div-popular-search ul {
+    margin-left: -20px;
+    list-style: none;
+    color: black;
+    line-height: 35px;
+}
+
+.div-popular-search a {
+    color: black;
+}
+
+.div-popular-search a:hover {
+    opacity: 0.7;
+}
+
+.div-popular-search h4 {
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.btn-rollback {
+    border: none;
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.btn-rollback:focus {
+    outline: none;
+}
+
+.btn-rollback:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    width: 100%;
+}
+
+/* font east sea dokdo */
+.div-sign-in {
+    border-radius: 5px;
+    width: 460px;
+    height: 500px;
+    position: fixed;
+    top: 12%;
+    left: 52%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: -1;
+    opacity: 0;
+    background-color: white;
+}
+
+.div-sign-in svg {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.div-sign-in h5 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 26px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+
+#si_acc, #si_pw{
+    border-radius: 6px;
+    line-height: 17px;
+    height: 40px;
+    width: 324px;
+    margin-top: 15px;
+    border: 2px solid #E5E5E5;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#si_pw:focus, #si_acc:focus {
+    outline: none;
+    box-shadow: 3px 4px 4px rgb(145, 145, 255);
+}
+
+.div-sign-in span {
+    width: 245px;
+    font-size: 12px;
+    color: black;
+}
+.div-create-acc h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-create-acc {
+    padding-top: 20px ;
+    border-radius: 5px;
+    width: 470px;
+    height: 800px;
+    position: fixed;
+    top: 50px;
+    left: 52%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: -1;
+    opacity: 0;
+    background-color: white;
+}
+.div-create-acc input {
+    border-radius: 6px;
+    line-height: 17px;
+    height: 40px;
+    width: 324px;
+    margin-top: 30px;
+    border: 2px solid #E5E5E5;
+    padding-left: 10px;
+}
+.div-create-acc input:focus{
+    outline: none;
+    box-shadow: 3px 4px 4px rgb(145, 145, 255);
+}
+.div-create-acc span{
+    font-size: 12px;
+    color:  #919191;
+    line-height: 5px;
+    margin-top: 100px;
+}
+.div-create-acc a{
+    color:  #919191;
+    text-decoration: underline;
+}
+.btn-create-acc {
+    width: 325px;
+    border: none;
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    font-family: 'VT323', monospace;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.btn-change {
+    background-color: white;
+    border: none;
+    color: black;
+    text-decoration: underline;
+}
+.btn-change:focus {
+    outline: none;
+}
+.div-sign-in a {
+    text-decoration: underline;
+    color: #919191;
+}
+
+.div-sign-in .btn-sign-in {
+    width: 325px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: 'VT323', monospace;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.btn-cancel-sign-in {
+    width: 32px !important;
+    height: 32px;
+    background-color: white;
+    font-size: 32px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 13px;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-cancel-sign-in:focus {
+
+    border: none;
+    outline: none;
+}
+
+.btn-cancel-sign-in i {
+    outline: none;
+    border: none;
+}
+
+.checkbox-ksi {
+    float: left;
+    display: inline;
+    width: 35%;
+    text-align: left;
+    height: 10px;
+    margin-left: 65px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #A2A2A2;
+}
+
+.checkbox-ksi input {
+    background-color: black;
+
+}
+
+.forgot-pw {
+    font-size: 12px;
+    text-decoration: none !important;
+}
+
+.div-blurred {
+    position: fixed;
+    background-color: black;
+    opacity: 0;
+    width: 110%;
+    height: 1080px;
+    top:0px;
+    z-index: -1;
+    overflow-y: scroll;
+}
+
+.div-content {
+    position: absolute;
+    top: 110px;
+    margin: 0px 1.5%;
+    width: 97%;
+    height: 2680px;
+}
+
+.video-brand {
+    box-shadow: 0px 5px 5px black;
+    width: 99%;
+    height: 380px;
+    float: left;
+    margin-bottom: 15px;
+}
+.div-top{
+    position: absolute;
+}
+.img-sales {
+    float: left;
+    height: 410px;
+    width: 99%;
+    box-shadow: 0px 5px 5px black;
+}
+
+.video-brand:focus {
+    outline: none;
+}
+
+.introduction {
+    position: absolute;
+    width: 35%;
+    height: 800px;
+    right: 0;
+    top: 0px;
+}
+
+
+
+footer {
+    box-shadow: -3px -3px 10px gray;
+    bottom: 0px;
+    width: 100%;
+    padding: 0 2.5%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    height: 330px;
+}
+
+footer h5 {
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+footer a {
+    line-height: 30px;
+    color: gray;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a h5:hover {
+    border-bottom: none;
+    color: white;
+}
+
+.menu-footer {
+    margin-top: 40px;
+    height: 220px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.menu-footer ul {
+    float: left;
+}
+
+.div-contact {
+    position: absolute;
+    float: right;
+    right: 2.5%;
+    font-size: 16px;
+
+}
+
+.div-contact i {
+    padding-top: 8px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    margin: 0 5px;
+    border-radius: 30px;
+}
+
+.div-contact i:hover {
+    background-color: whitesmoke;
+}
+
+.top-item {
+    width: 64%;
+    height: 810px;
+    float: left;
+    position: relative;
+    box-shadow: 0px 5px 5px gray;
+    background-color: black;
+}
+
+.top-item img {
+    width: 49.72%;
+    height: 700px;
+}
+
+.div-pink {
+    padding-top: 35px;
+    padding-left: 20px;
+    background-color: #F9E5CD;
+    width: 49.7%;
+    height: 110px;
+    color: black;
+}
+
+.div-pink h3 {
+    font-size: 17px;
+}
+.top-item:hover,.top-item:hover .div-pink{
+    text-decoration: none;
+    color: #0B46B9;
+}
+.top-item:hover span{
+    border:2px solid white;
+    color: white;
+}
+.top-item span{
+    float: right;
+    margin-bottom: 50px;
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+    position: absolute;
+    bottom: -30px;
+    right: 40px;
+    padding: 5px 15px;
+}
+.img-detail{
+    margin:100px auto;
+    width: 96%;
+}
+.img-detail img{
+    width:300px;
+    height: 300px;
+    margin:0px 10px
+}
+.div-wrap-shoes {
+    width: 100%;
+    height: 540px;
+}
+
+.small-div img {
+    height: 402px;
+    width: 402px;
+    margin-bottom: 10px;
+}
+.div-wrap-shoes a {
+    float: left;
+    margin: 20px 1.1%;
+    height: 490px;
+    width: 402px;
+    color: black;
+    box-shadow: 1px 3px 3px gray;
+
+}
+
+.small-div:hover {
+    text-decoration: none;
+}
+
+.small-div h4 {
+    font-size: 20px;
+    float: left;
+    width: 310px;
+}
+
+.div-wrap-shoes::-webkit-scrollbar {
+    height: 5px;
+}
+
+.div-wrap-shoes::-webkit-scrollbar-thumb {
+    background: #757575;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    width: 100px;
+    background-color: #F5F5F5;
+}
